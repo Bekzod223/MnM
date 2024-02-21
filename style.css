@@ -1,0 +1,1411 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+#carousel1{
+    background-color: #ED9418;
+}
+#carousel2{
+    background-color: yellow;
+}
+.carousel-inner p{
+text-align: center;
+padding-top: 10px;
+}
+
+header{
+height: 120px;
+background-color: rgb(255, 255, 255);
+}
+.logo{
+position: relative;
+top: 10px;
+}
+.left img{
+margin: 30px 30px;
+position: relative;
+left: 50px;
+cursor: pointer;
+}
+
+.words p{
+    display: inline-flex;
+    position: relative;
+    bottom: 29px;
+    left: 205px;
+    margin-left: 40px;
+    color: #5A1F06;
+    font-weight: 900;
+}
+
+.right{
+    float: right;
+    margin-right: 30px;
+    display: flex;
+    position: relative;
+    bottom: 105px;
+}
+
+.right .btn1{
+    width: 198px;
+    height: 40px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: #F3F6FA;
+    color: #5A1F06;
+    border: none;
+}
+
+.btn2{
+    width: 198px;
+    height: 40px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: #F3F6FA;
+    color: #5A1F06;
+    border: none;
+    margin-left: 25px;
+}
+
+.right button:hover{
+    background-color: #5A1F06;
+    color: white;
+}
+
+.buttons img{
+    float: right;
+    display: flex;
+    position: relative;
+    bottom: 95px;
+    margin-right: 25px;
+
+}
+.buttons img:hover{
+    border: yellow 2px solid;
+    border-radius: 25px;
+    border-width: 10px;
+}
+
+.main{
+    background-color: #108A3D;
+    height: 1569px;
+}
+
+.leftm{
+    padding: 60px 300px;
+    font-family: 'Playfair Display', serif;
+    color: white;
+}
+
+.bald{
+    font-size: 55px;
+}
+
+.btnm{
+    width: 260px;
+    height: 60px;
+    border-radius: 45px;
+    background-color: white;
+    color: #5A1F06;
+    border: none;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.btnm:hover{
+    box-shadow: -6px 8px 4px   blue;
+}
+
+.btnmm{
+    width: 260px;
+    height: 60px;
+    border-radius: 45px;
+    background-color: transparent;
+    color: #ffffff;
+    border: white 2px solid;
+    font-size: 20px;
+}
+.btnmm:hover{
+    box-shadow: -6px 8px 1px   yellow ;
+    background-color: white;
+    color: #5A1F06;
+}
+
+.thin{
+    font-family: 'Playfair Display', serif;
+}
+
+.rightm{
+    float: right;
+    position: relative;
+    bottom: 430px;
+    right: 150px;
+}
+
+.cards{
+    display: flex;
+    margin: 200px 20px;
+    position: relative;
+    left: 300px;
+}
+
+.card1{
+    width: 392px;
+    height: 489px;
+    background-color: #00A832;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+
+.card1 button{
+    background-color: transparent;
+    color: black;
+    border: none;
+    border-bottom: 2px solid;
+    font-weight: 600;
+}
+.card1 button:hover{
+border: none;
+border-bottom: none;
+}
+
+.card2{
+    width: 392px;
+    height: 489px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+
+.card2 button{
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-bottom: 2px solid orange;
+    font-weight: 600;
+}
+.card2 button:hover{
+    border: none;
+    border-bottom: none;
+}
+
+.card3{
+    width: 392px;
+    height: 489px;
+    background-color: #0E74E1;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+
+.card3 button {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-bottom: 2px solid orange;
+    font-weight: 600; 
+}
+.card3 button:hover{
+border: none;
+border-bottom: none;
+}
+
+.ticker{
+    display: flex;
+    color: white;
+    font-size: 42px;
+}
+
+.main2{
+    height: 862px;
+    background-color: #FFD200;
+    color: #5A1F06;
+    text-align: center;
+}
+
+.first{
+    padding-top: 60px;
+    font-weight:700;
+}
+
+.first button{
+    width: 367px;
+    height: 60px;
+    border: none;
+    border-radius: 50px;
+    font-weight: 700;
+    color: #5A1F06;
+    font-family: 'Playfair Display', serif;
+}
+.first button:hover{
+    box-shadow: -6px 8px 1px   #5A1F06 ;
+}
+
+.first h1{
+    font-family: 'Playfair Display', serif;
+}
+
+
+.christmas{
+    float: right;
+    margin-right: 400px;
+    height: 552px;
+    margin-top: 50px;
+}
+
+.christmas h1{
+    color: #5A1F06;
+    font-family: 'Playfair Display', serif;
+    font-size: 52px;
+}
+
+.christmas p{
+    font-weight: 600;
+}
+
+.christmas button {
+    background-color: transparent;
+    color: #5A1F06;
+    border: none;
+    border-bottom: 2px solid orange;
+    font-weight: 600; 
+}
+.christmas button:hover{
+border: none;
+border-bottom: none;
+}
+
+.celebrate img{
+    margin-left: 300px;
+}
+
+.celebrate{
+    padding-top: 100px;
+
+}
+
+.swiper{
+    width: 612px;
+    height: 312px;
+    margin-top: 70px;
+
+}
+
+.swiper img{
+position: relative;
+right: 310px;
+
+}
+.swiper p{
+    position: relative;
+    right: 2510px;
+    margin-top: 200px;
+    margin-right: 129px;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+
+.birthday{
+    margin: 100px;
+}
+
+.birthday h1{
+    color: #FA6400;
+    font-size: 44px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+
+.celebrations p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.favor-pack{
+    height: 305.58px;
+    width: 305.58px;
+}
+
+.swooper {
+    margin: 100px 200px;
+}
+
+.swooper svg{
+    color: red;
+    background-color: #00A832;
+}
+
+.lets-persolized{
+    font-family: 'Salsa', cursive;
+}
+
+.personalized{
+    text-align: center;
+}
+.personalized h1{
+    font-size: 44px;
+    color: #5A1F06;
+    font-weight: 700;
+}
+
+.ccards{
+    display: flex;
+    position: relative;
+    margin-left: 300px;
+}
+
+.bussiness{
+    width: 392px;
+    height: 562px;
+    background-color: #0E74E1;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+
+
+
+.ccards img{
+    width: 312px;
+    height: 312px;
+}
+.ccards h1{
+    font-size: 24px;
+    margin-top: 30px;
+    font-weight: 800;
+}
+
+.customize{
+    width: 392px;
+    height: 562px;
+    background-color: #005E20;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+.mlb{
+    width: 392px;
+    height: 562px;
+    background-color: #8ACEFF;
+    color: #040607;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+.ccards button{
+    width: 344px;
+    height: 44px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 50px;
+}
+.ccards button:hover{
+    box-shadow: -4px 6px 1px   yellow ;
+    transition: all ease 0.2s;
+    color: #5A1F06;
+    background-color: white;
+}
+
+.mlb .mlb-btn{
+   border: 1px solid #5A1F06;
+   color: #5A1F06;
+   margin-top: 25px;
+}
+.mlb .mlb-btn:hover{
+    box-shadow: -4px 6px 1px   #5A1F06 ;
+}
+    
+
+footer{
+    background-color: #FFFFFF;
+}
+
+.first-foot{
+    background-color: #FFD200;
+    text-align: center;
+}
+.first-foot img{
+    width: 1016px;
+    height: 368px;
+}
+
+.infos{
+    display: flex;
+    margin-left: 230px;
+}
+
+.infos img{
+    margin-left: 150px;
+}
+
+.infos h1{
+    font-size: 16px;
+    position: relative;
+    top: 13px;
+    font-weight: 800;
+}
+
+.paragraphs {
+    display: flex;
+    margin-left: 360px;
+    position: relative;
+    bottom: 40px;
+
+}
+.paragraphs p{
+    margin-left: 100px;
+}
+
+.snd{
+    position: relative;
+    left: 48px;
+}
+.third{
+    position: relative;
+    left: 70px;
+}
+.fourth{
+    position: relative;
+    left: 50px;
+}
+
+.all-info{
+    margin-top: 30px;
+}
+
+span{
+    border-bottom: 2px solid #FFD200;
+}
+span:hover{
+    border-bottom: none;
+}
+
+.futer{
+    display: flex;
+    margin: 50px 400px;
+}
+
+.col1{
+    width: 325px;
+}
+
+.col1 h1{
+    color: #5A1F06;
+    font-size: 24px;
+    font-weight: 700;
+}
+.col1 input{
+    border: none;
+    border-bottom: 1px solid grey;
+    width: 288px;
+    height: 43px; 
+}
+.col1 p{
+    font-size: 12px;
+}
+.col1 button{
+    width: 288px;
+    height: 60px;
+    border: none;
+    border-radius: 50px;
+    font-weight: 700;
+    color: #5A1F06;
+    background-color: #FFD200;
+    font-family: 'Playfair Display', serif;
+}
+.col1 button:hover{
+    box-shadow: -6px 6px 1px   #5A1F06 ;
+    transition: all ease 0.5s;
+}
+
+.futer a{
+text-decoration: none;
+color: black;
+}
+
+.topic{
+    color: #5A1F06;
+    font-weight: 800;
+}
+
+.col2{
+    margin-left: 30px
+}
+.col3{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.futer li{
+    margin-top: 10px;
+}
+
+.social i{
+    color: #5A1F06;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.futer li:hover{
+    border-bottom: 2px solid #FFD200;
+    
+}
+
+.social i:hover{
+    background-color: #FFD200;
+    border-radius: 100px;
+    border: 1px solid #FFD200;
+    height: 50px;
+    display: block;
+    width: 50px;
+}
+
+
+
+.last-fut{
+    display: flex;
+    margin-left: 400px;
+}
+
+.licence{
+    margin-left: 300px;
+}
+.licence a{
+    color: #040607;
+}
+
+
+.swwwiper{
+    margin-top: 100px;
+}
+.fun{
+    text-align: center;
+}
+.fun h1{
+    color: #5A1F06;
+    font-size: 36px;
+}
+
+.swwiper{
+    width: 1320px;
+    height: 495px;
+    margin-left: 300px;
+}
+.swwiper h1{
+margin-top: 360px;
+font-size: 56px;
+font-weight: 700;
+color: #00403E;
+position: relative;
+right: 2350px;
+}
+
+
+.swooper p{
+    color: #040607;
+
+text-align: center;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 18px; /* 128.571% */
+letter-spacing: 0.28px;
+}
+
+.swipe-slide{
+    display: flex;
+     flex-direction: column;
+}
+
+.brown{
+    width: 150px;
+}
+
+.orange{
+width: 200px;
+}
+
+.purple{
+height: 300px;
+}
+.red{
+width: 200px;
+}
+.yellow{
+width: 170px;
+
+}
+.green{
+    width: 180px;
+}
+.blue{
+    height: 200px;
+}
+
+.ticker {
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .ticker_wrapper {
+    display: flex;
+  }
+  
+  .ticker_item {
+    font-size: 40px;
+    font-weight: 500;
+    white-space: nowrap;
+    flex-shrink: 0;
+    animation: ticker 25s linear infinite;
+  
+  }
+  
+  @keyframes ticker {
+    0% {
+      transform: translateZ(0)
+    }
+  
+    to {
+      transform: translate3d(-100%, 0, 0);
+    }
+  
+  }
+  
+  .ticker_item-2 {
+    font-size: 40px;
+    font-weight: 500;
+    white-space: nowrap;
+    flex-shrink: 0;
+    animation: tickers 15s linear infinite;
+  }
+  
+  @keyframes tickers {
+    0% {
+      transform: translate3d(-100%, 0, 0)
+    }
+  
+    to {
+      transform: translateZ(100%);
+    }
+  }
+  
+  .swiper-button-next, .swiper-button-prev {
+    position: absolute;
+    top: var(--swiper-navigation-top-offset,50%);
+    width: calc(var(--swiper-navigation-size)/ 44 * 27);
+    height: var(--swiper-navigation-size);
+    margin-top: calc(0px - (var(--swiper-navigation-size)/ 2));
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: green;
+    /* color: var(--swiper-navigation-color,var(--swiper-theme-color)); */
+}
+
+@media screen and (max-width: 768px) {
+    header{
+        height: 140px;
+        background-color: rgb(255, 255, 255);
+        }
+        .logo img{
+        position: relative;
+        top: 10px;
+        right: 400px;
+        }
+        .left img{
+        margin: 3px 100px;
+        position: relative;
+        left: 50px;
+        cursor: pointer;
+        }
+        
+        .words p{
+            display: none;
+        }
+        
+        .right{
+            float: right;
+            margin-right: 0px;
+            display: flex;
+            position: relative;
+            bottom: 165px;
+        }
+        
+        .right .btn1{
+            width: 198px;
+            height: 40px;
+            border-radius: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            background-color: #ffffff;
+            color: #5A1F06;
+            border: none;
+        }
+        
+        .btn2{
+            width: 198px;
+            height: 40px;
+            border-radius: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            background-color: #ffffff;
+            color: #5A1F06;
+            border: none;
+            margin-left: 25px;
+        }
+        
+        .right button:hover{
+            background-color: #5A1F06;
+            color: white;
+        }
+        
+        .buttons img{
+            float: right;
+            display: none;
+            position: relative;
+            bottom: 95px;
+            margin-right: 25px;
+        
+        }
+        .buttons img:hover{
+            border: yellow 2px solid;
+            border-radius: 25px;
+            border-width: 10px;
+        }
+        
+        .main{
+            background-color: #108A3D;
+            height: 2769px;
+        }
+        
+        .leftm{
+            padding: 60px 30px;
+            font-family: 'Playfair Display', serif;
+            color: white;
+        }
+        
+        .bald{
+            font-size: 55px;
+        }
+        
+        .btnm{
+            width: 260px;
+            height: 60px;
+            border-radius: 45px;
+            background-color: white;
+            color: #5A1F06;
+            border: none;
+            font-size: 20px;
+            margin-right: 20px;
+        }
+        .btnm:hover{
+            box-shadow: -6px 8px 4px   blue;
+        }
+        
+        .btnmm{
+            width: 260px;
+            height: 60px;
+            border-radius: 45px;
+            background-color: transparent;
+            color: #ffffff;
+            border: white 2px solid;
+            font-size: 20px;
+        }
+        .btnmm:hover{
+            box-shadow: -6px 8px 1px   yellow ;
+            background-color: white;
+            color: #5A1F06;
+        }
+        
+        .thin{
+            font-family: 'Playfair Display', serif;
+        }
+        
+        .rightm{
+            float: right;
+            position: relative;
+            bottom: 60px;
+            right: -120px;
+        }
+        
+        .cards{
+            display: block;
+            margin: 500px 2px;
+            position: relative;
+            left: 3px;
+        }
+        
+        .card1{
+            width: 392px;
+            height: 489px;
+            background-color: #00A832;
+            color: white;
+            text-align: center;
+            padding-top: 30px;
+            border-radius: 10px;
+        }
+        
+        .card1 button{
+            background-color: transparent;
+            color: black;
+            border: none;
+            border-bottom: 2px solid;
+            font-weight: 600;
+        }
+        .card1 button:hover{
+        border: none;
+        border-bottom: none;
+        }
+        
+        .card2{
+            width: 392px;
+            height: 489px;
+            background-color: red;
+            color: white;
+            text-align: center;
+            padding-top: 30px;
+            margin-left: 1px;
+            border-radius: 10px;
+        }
+        
+        .card2 button{
+            background-color: transparent;
+            color: rgb(255, 255, 255);
+            border: none;
+            border-bottom: 2px solid orange;
+            font-weight: 600;
+        }
+        .card2 button:hover{
+            border: none;
+            border-bottom: none;
+        }
+        
+        .card3{
+            width: 392px;
+            height: 489px;
+            background-color: #0E74E1;
+            color: white;
+            text-align: center;
+            padding-top: 30px;
+            margin-left: 1px;
+            border-radius: 10px;
+        }
+        
+        .card3 button {
+            background-color: transparent;
+            color: rgb(255, 255, 255);
+            border: none;
+            border-bottom: 2px solid orange;
+            font-weight: 600; 
+        }
+        .card3 button:hover{
+        border: none;
+        border-bottom: none;
+        }
+        
+        .ticker{
+            display: flex;
+            color: white;
+            font-size: 42px;
+            position: relative;
+            bottom: 470px;
+        }
+        
+        .main2{
+            height: 1562px;
+            background-color: #FFD200;
+            color: #5A1F06;
+            text-align: center;
+        }
+        
+        .first{
+            padding-top: 60px;
+            font-weight:700;
+        }
+        
+        .first button{
+            width: 367px;
+            height: 60px;
+            border: none;
+            border-radius: 50px;
+            font-weight: 700;
+            color: #5A1F06;
+            font-family: 'Playfair Display', serif;
+        }
+        .first button:hover{
+            box-shadow: -6px 8px 1px   #5A1F06 ;
+        }
+        
+        .first h1{
+            font-family: 'Playfair Display', serif;
+        }
+        
+        
+        .christmas{
+            float: right;
+            margin-right: -210px;
+            height: 552px;
+            margin-top: 50px;
+        }
+        
+        .christmas h1{
+            color: #5A1F06;
+            font-family: 'Playfair Display', serif;
+            font-size: 52px;
+        }
+        
+        .christmas p{
+            font-weight: 600;
+        }
+        
+        .christmas button {
+            background-color: transparent;
+            color: #5A1F06;
+            border: none;
+            border-bottom: 2px solid orange;
+            font-weight: 600; 
+        }
+        .christmas button:hover{
+        border: none;
+        border-bottom: none;
+        }
+        
+        .celebrate img{
+            width: 370px;
+            margin-left: 20px;
+        }
+        
+        .celebrate{
+            padding-top: 100px;
+        
+        }
+        
+        .swiper{
+            width: 612px;
+            height: 312px;
+            margin-top: 20px;
+        
+        }
+        
+        .swiper img{
+        position: relative;
+        right: 310px;
+        
+        }
+        .swiper p{
+            position: relative;
+            right: 2510px;
+            margin-top: 200px;
+            margin-right: 129px;
+            font-weight: 800;
+            font-size: 18px;
+        }
+        
+        
+        .birthday{
+            margin: 100px;
+        }
+        
+        .birthday h1{
+            color: #FA6400;
+            font-size: 44px;
+            font-family: 'Playfair Display', serif;
+            text-align: center;
+        }
+        
+        .celebrations p{
+            text-align: center;
+            font-size: 16px;
+            font-weight: 400;
+        }
+        
+        .favor-pack{
+            height: 305.58px;
+            width: 305.58px;
+        }
+        
+        .swooper {
+            margin: 10px -102px;
+            width: 700px;
+        }
+        
+        .swooper svg{
+            color: red;
+            background-color: #00A832;
+        }
+        
+        .lets-persolized{
+            font-family: 'Salsa', cursive;
+        }
+        
+        .personalized{
+            text-align: center;
+        }
+        .personalized h1{
+            font-size: 44px;
+            color: #5A1F06;
+            font-weight: 700;
+        }
+        
+        .ccards{
+            display: block;
+            position: relative;
+            margin-left: 3px;
+        }
+        
+        .bussiness{
+            width: 392px;
+            height: 562px;
+            background-color: #0E74E1;
+            color: white;
+            text-align: center;
+            padding-top: 30px;
+            border-radius: 10px;
+        }
+        
+        
+        
+        .ccards img{
+            width: 312px;
+            height: 312px;
+        }
+        .ccards h1{
+            font-size: 24px;
+            margin-top: 30px;
+            font-weight: 800;
+        }
+        
+        .customize{
+            width: 392px;
+            height: 562px;
+            background-color: #005E20;
+            color: white;
+            text-align: center;
+            padding-top: 30px;
+            border-radius: 10px;
+            margin-left: 0px;
+        }
+        
+        .mlb{
+            width: 392px;
+            height: 562px;
+            background-color: #8ACEFF;
+            color: #040607;
+            text-align: center;
+            padding-top: 30px;
+            border-radius: 10px;
+            margin-left: 0px;
+        }
+        
+        .ccards button{
+            width: 344px;
+            height: 44px;
+            border: 1px solid white;
+            background-color: transparent;
+            color: white;
+            border-radius: 50px;
+        }
+        .ccards button:hover{
+            box-shadow: -4px 6px 1px   yellow ;
+            transition: all ease 0.2s;
+            color: #5A1F06;
+            background-color: white;
+        }
+        
+        .mlb .mlb-btn{
+           border: 1px solid #5A1F06;
+           color: #5A1F06;
+           margin-top: 25px;
+        }
+        .mlb .mlb-btn:hover{
+            box-shadow: -4px 6px 1px   #5A1F06 ;
+        }
+            
+        
+        footer{
+            background-color: #FFFFFF;
+        }
+        
+        .first-foot{
+            background-color: #FFD200;
+            text-align: center;
+        }
+        .first-foot img{
+            width: 416px;
+            height: 368px;
+        }
+        
+        .infos{
+            display: block;
+            margin-left: 20px;
+        }
+        
+        .infos img{
+            margin-left: 10px;
+        }
+        
+        .infos h1{
+            font-size: 16px;
+            position: relative;
+            top: 13px;
+            font-weight: 800;
+        }
+        
+        .paragraphs {
+            display: none       ;
+            margin-left: 30px;
+            position: relative;
+            bottom: 40px;
+        
+        }
+        .paragraphs p{
+            margin-left: 10px;
+        }
+        
+        .snd{
+            position: relative;
+            left: 48px;
+        }
+        .third{
+            position: relative;
+            left: 70px;
+        }
+        .fourth{
+            position: relative;
+            left: 50px;
+        }
+        
+        .all-info{
+            margin-top: 30px;
+        }
+        
+        span{
+            border-bottom: 2px solid #FFD200;
+        }
+        span:hover{
+            border-bottom: none;
+        }
+        
+        .futer{
+            display: flex;
+            margin: 50px 40px;
+        }
+        
+        .col1{
+            width: 325px;
+        }
+        
+        .col1 h1{
+            color: #5A1F06;
+            font-size: 24px;
+            font-weight: 700;
+        }
+        .col1 input{
+            border: none;
+            border-bottom: 1px solid grey;
+            width: 288px;
+            height: 43px; 
+        }
+        .col1 p{
+            font-size: 12px;
+        }
+        .col1 button{
+            width: 288px;
+            height: 60px;
+            border: none;
+            border-radius: 50px;
+            font-weight: 700;
+            color: #5A1F06;
+            background-color: #FFD200;
+            font-family: 'Playfair Display', serif;
+        }
+        .col1 button:hover{
+            box-shadow: -6px 6px 1px   #5A1F06 ;
+            transition: all ease 0.5s;
+        }
+        
+        .futer a{
+        text-decoration: none;
+        color: black;
+        }
+        
+        .topic{
+            color: #5A1F06;
+            font-weight: 800;
+        }
+        
+        .col2{
+            display: none;
+        }
+        .col3{
+            margin-left: 50px;
+            display: none;
+            margin-right: 50px;
+        }
+        
+        .futer li{
+            margin-top: 10px;
+        }
+        
+        .social i{
+            color: #5A1F06;
+            font-size: 30px;
+            margin-left: 10px;
+        }
+        
+        .futer li:hover{
+            border-bottom: 2px solid #FFD200;
+            
+        }
+        
+        .social i:hover{
+            background-color: #FFD200;
+            border-radius: 100px;
+            border: 1px solid #FFD200;
+            height: 50px;
+            display: block;
+            width: 50px;
+        }
+        
+        
+        
+        .last-fut{
+            display: flex;
+            margin-left: 40px;
+        }
+        
+        .licence{
+            margin-left: 100px;
+        }
+        .licence a{
+            color: #040607;
+        }
+        
+        
+        .swwwiper{
+            margin-top: 100px;
+        }
+        .fun{
+            text-align: center;
+        }
+        .fun h1{
+            color: #5A1F06;
+            font-size: 36px;
+        }
+        
+        .swwiper{
+            width: 520px;
+            height: 495px;
+            margin-left: 30px;
+        }
+        .swwiper h1{
+        margin-top: 360px;
+        font-size: 56px;
+        font-weight: 700;
+        color: #00403E;
+        position: relative;
+        right: 2350px;
+        }
+        
+        
+        .swooper p{
+            color: #040607;
+        
+        text-align: center;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 18px; /* 128.571% */
+        letter-spacing: 0.28px;
+        }
+        
+        .swipe-slide{
+            display: flex;
+             flex-direction: column;
+        }
+        
+        .brown{
+            width: 150px;
+        }
+        
+        .orange{
+        width: 200px;
+        }
+        
+        .purple{
+        height: 300px;
+        }
+        .red{
+        width: 200px;
+        }
+        .yellow{
+        width: 170px;
+        
+        }
+        .green{
+            width: 180px;
+        }
+        .blue{
+            height: 200px;
+        }
+        
+        .ticker {
+            box-sizing: border-box;
+            position: relative;
+            overflow: hidden;
+          }
+          
+          .ticker_wrapper {
+            display: flex;
+          }
+          
+          .ticker_item {
+            font-size: 40px;
+            font-weight: 500;
+            white-space: nowrap;
+            flex-shrink: 0;
+            animation: ticker 25s linear infinite;
+          
+          }
+          
+          
+          .ticker_item-2 {
+            font-size: 40px;
+            font-weight: 500;
+            white-space: nowrap;
+            flex-shrink: 0;
+            animation: tickers 15s linear infinite;
+          }
+}
